@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "montserratRegular";
+    src: url(./MONTSERRAT-REGULAR_0.TTF);
+}
+
+@font-face {
+    font-family: "montserratBold";
+    src: url(./Montserrat-Bold.ttf);
+}
+* {
+    font-family: montserratRegular;
+}
