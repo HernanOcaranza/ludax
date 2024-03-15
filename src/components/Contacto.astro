@@ -1,0 +1,67 @@
+<section id="contacto" class="bg-whiteL text-blackL py-12">
+  <h2
+    class="text-3xl text-right lg:text-7xl mb-7 pr-14"
+    style="font-family: montserratBold;"
+  >
+    CONTACTO
+  </h2>
+  <form
+    action="mailto:administracion@ludax.es"
+    method="post"
+    enctype="text/plain"
+    class="flex flex-col md:flex-row w-11/12 m-auto md:justify-around"
+  >
+    <span class="flex flex-col md:w-5/12">
+      <input
+        class="p-3 rounded-3xl border-greenL border-2 bg-whiteL mb-2"
+        type="text"
+        name="nombre"
+        id="nom"
+        placeholder="Nombre"
+      />
+      <select
+        class="p-3 pr-4 rounded-3xl border-greenL border-2 bg-whiteL mb-2"
+        name="sector"
+        id="sect"
+      >
+        <option value="" disabled selected>Sector</option>
+        <option value="Sector1">Opcion 1</option>
+        <option value="Sector2">Opcion 2</option>
+        <option value="Sector3">Opcion 3</option>
+      </select>
+      <input
+        class="p-3 rounded-3xl border-greenL border-2 bg-whiteL mb-2"
+        type="email"
+        name="email"
+        id="mail"
+        placeholder="E-mail"
+      />
+      <input
+        class="p-3 rounded-3xl border-greenL border-2 bg-whiteL mb-2"
+        type="tel"
+        name="telefono"
+        id="tel"
+        placeholder="Teléfono"
+      />
+    </span>
+    <span class="flex flex-col md:w-5/12">
+      <input
+        class="p-3 rounded-3xl border-greenL border-2 bg-whiteL mb-2"
+        type="text"
+        name="asunto"
+        id="asunt"
+        placeholder="Asunto"
+      />
+      <textarea
+        class="p-3 rounded-3xl border-greenL border-2 bg-whiteL mb-2 h-32 sm:h-56"
+        name="mensaje"
+        id="mensj"
+        placeholder="Mensaje"></textarea>
+      <input
+        type="submit"
+        value="Enviar"
+        class="bg-greenL border-greenL border-2 text-whiteL rounded-3xl py-3 px-5 mb-5 sm:w-fit hover:text-greenL hover:bg-whiteL self-end transition-colors"
+      />
+    </span>
+  </form>
+</section>
