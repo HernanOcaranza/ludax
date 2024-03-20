@@ -1,27 +1,30 @@
 ---
-
+import Separador from "../components/Separador.astro";
 ---
 
 <section
   id="nosotros"
-  class="bg-cover bg-right-top bg-greenL flex py-28 sm:justify-end"
+  class="bg-cover bg-right-top bg-greenL"
   style="background-image: url(./nosotrosFondo.png);"
 >
-  <article class="sm:w-3/4 flex flex-col sm:items-end sm:justify-end">
-    <h2
-      class="text-3xl text-center px-4 mb-10 sm:text-right lg:text-7xl"
-      style="font-family: montserratBold;"
-    >
-      ¿QUIENES SOMOS?
-    </h2>
-    <p class="text-xl sm:text-right sm:w-3/4 lg:text-3xl px-4">
-      Somos una empresa especializada en brindar
-      <span class="font-bold">personal hotelero altamente cualificado</span>
-      a travéz de los recursos humanos, mediante contratos de externalización o de
-      empleo de trabajo temporal. Nos enorgullece presentarnos como
-      <span class="font-bold">tu socio estratégico</span>
-      para <span class="font-bold">elevar la calidad de servicio</span>
-      en tu establecimiento
-    </p>
-  </article>
+  <Separador />
+  <div class="flex py-28 sm:justify-end">
+    <article class="sm:w-3/4 flex flex-col sm:items-end sm:justify-end">
+      <h2
+        class="text-3xl text-center px-4 mb-10 sm:text-right lg:text-7xl"
+        style="font-family: montserratBold;"
+      >
+        ¿QUIENES SOMOS?
+      </h2>
+      <p class="text-xl sm:text-right sm:w-3/4 lg:text-3xl px-4">
+        Somos una empresa especializada en brindar
+        <span class="font-bold">personal hotelero altamente cualificado</span>
+        a travéz de los recursos humanos, mediante contratos de externalización o
+        de empleo de trabajo temporal. Nos enorgullece presentarnos como
+        <span class="font-bold">tu socio estratégico</span>
+        para <span class="font-bold">elevar la calidad de servicio</span>
+        en tu establecimiento
+      </p>
+    </article>
+  </div>
 </section>
